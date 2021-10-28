@@ -29,6 +29,7 @@
         <div class="mt-5 d-flex justify-content-between">
             <img src="assets/logo.svg" class="logo" alt="">
             <div>
+                <!-- Instead of adding 3 elements in a div, a menu logo may be customized. -->
                 <div class="menu m-2"></div>
                 <div class="menu m-2"></div>
                 <div class="menu m-2"></div>
@@ -75,6 +76,7 @@
                         <span style="color: #FF4A92;">Project’s</span> I am working on
                     </div>
                 </div>
+                <!-- Instead of overflow-auto , in small devicec those cards may be in column type. ; flex-md-row will make it row if screen is medium or large, and adding flex-col will make it colmn if it is not medium or large. -->
                 <div class="d-flex justify-content-between overflow-auto">
                     <div class="d-flex flex-column">
                         <div class="card p-3 projects-card" style="border-radius: 19.7436px;">
@@ -86,6 +88,7 @@
                         </div>
                     </div>
                     <div class="d-flex flex-column">
+                        <!-- I think it is better to round up float numbers ; 20 will be better instead of 19.74... etc. -->
                         <div class="card p-3 projects-card" style="border-radius: 19.7436px;">
                             <img src="assets/creative.png" alt="" class="mb-4">
                             <div class="projects-h2">Creative colt</div>
