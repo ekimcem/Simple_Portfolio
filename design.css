@@ -62,13 +62,91 @@
 }
 
 #footer .btn {
+    color: #FFFFFF;
+    background: linear-gradient(0deg, #FF0065 -28.33%, #B9064D 95.83%);
+    border-radius: 6px;
+}
+
+.logo {
+    width: 68px;
+    height: 58px;
+}
+
+.menu {
+    background: linear-gradient(180deg, #FFE2DB 0%, #FF3131 100%);
+    width: 51.35px;
+    height: 9.35px;
+    border-radius: 5px;
+}
+
+.hero-h1-black {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 96px;
+    color: #363958;
+}
+
+.hero-p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+
+.hire-me-button {
+    background: linear-gradient(277.25deg, #FF589B 3.09%, #FF136F 109.98%);
+    border-radius: 6px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;
-    background: linear-gradient(0deg, #FF0065 -28.33%, #B9064D 95.83%);
+    padding: 8% 32% 8% 32%;
+    border: none;
+}
+
+.hero-rectangle {
+    width: 175px;
+    height: 510px;
+    background: linear-gradient(180deg, #FF3131 0%, #FF4A92 100%);
+}
+
+.hero-h2 {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #363958;
+}
+
+.hero-p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+    padding: 0em;
+}
+
+.hero-download-button {
+    background: linear-gradient(0deg, #FF4A92 -28.33%, #F46060 95.83%);
     border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 5%;
+    border: none;
+    max-width: 170px;
 }
 
 #footer .stay-text {
@@ -76,5 +154,44 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    color: #696871;
+    color: #343341;
+}
+
+.projects-container {
+    width: 100%;
+    background-color: #E5E5E5;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+.projects-h1 {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: black;
+}
+
+.projects-h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+.projects-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+.projects-card {
+    width: 370px;
+    margin-right: 5px;
 }
