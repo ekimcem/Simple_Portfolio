@@ -40,10 +40,10 @@
 #footer .inquiry-bg {
     background: linear-gradient(90deg, #FC5E51 -0.03%, #F59E75 100.02%);
     border-radius: 30px;
-    min-height: 200px;
+    height: 250px;
 }
 
-#footer h1 {
+#footer .inquiry-text {
     font-family: Bebas Neue;
     font-style: normal;
     font-weight: normal;
@@ -52,6 +52,29 @@
     color: #FFFFFF;
 }
 
-.inquiry {
-    min-height: 100%;
+#footer .mail-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+}
+
+#footer .btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: linear-gradient(0deg, #FF0065 -28.33%, #B9064D 95.83%);
+    border-radius: 6px;
+}
+
+#footer .stay-text {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #696871;
 }
