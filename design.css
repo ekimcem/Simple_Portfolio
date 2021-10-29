@@ -195,3 +195,7 @@
     width: 370px;
     margin-right: 5px;
 }
+
+.footer-bg-details-dot-1 {
+    background: url(assets/dots.svg) top -50px right 65px no-repeat, url(assets/dots.svg) bottom -50px right 45% no-repeat;
+}
