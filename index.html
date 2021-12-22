@@ -17,6 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!--Fontawesome cdn-->
     <script src="https://kit.fontawesome.com/54d4713cab.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,6 +29,7 @@
         <div class="mt-5 d-flex justify-content-between">
             <img src="assets/logo.svg" class="logo" alt="">
             <div>
+                <!-- Instead of adding 3 elements in a div, a menu logo may be customized. -->
                 <div class="menu m-2"></div>
                 <div class="menu m-2"></div>
                 <div class="menu m-2"></div>
@@ -54,9 +59,8 @@
                     About
                 </div>
                 <div class="hero-p2 mb-5">
-                    I'm a Planet Earth-based software engineer with specialized skills in developing 
-                    (& sometimes designing) outstanding digital platforms. I am also a freelance developer and designer 
-                    but looking for a full-time remote job... if you have one feel free to knock!!
+                    I'm a Planet Earth-based software engineer with specialized skills in developing (& sometimes designing) outstanding digital platforms. I am also a freelance developer and designer but looking for a full-time remote job... if you have one feel free to
+                    knock!!
                 </div>
                 <button class="hero-download-button"><img src="assets/download_icon.svg" alt=""> Download CV</button>
             </div>
@@ -74,35 +78,32 @@
                 </div>
                 <div class="d-flex justify-content-between overflow-auto">
                     <div class="d-flex flex-column">
-                       <div class="card p-3 projects-card" style="border-radius: 19.7436px;">
+                        <div class="card p-3 projects-card" style="border-radius: 19.7436px;">
                             <img src="assets/gym.png" alt="" class="mb-4">
                             <div class="projects-h2">Zim's Gym</div>
                             <div class="projects-p">
-                                Lorem Ipsum is simply dummy text of the 
-                                printing and typesetting industry.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </div>
-                       </div>
+                        </div>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="card p-3 projects-card" style="border-radius: 19.7436px;">
                             <img src="assets/creative.png" alt="" class="mb-4">
                             <div class="projects-h2">Creative colt</div>
                             <div class="projects-p">
-                                Lorem Ipsum is simply dummy text of the 
-                                printing and typesetting industry.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             </div>
                         </div>
                     </div>
                     <div class="d-flex flex-column">
                         <div class="card p-3 projects-card" style="border-radius: 19.7436px;">
-                             <img src="assets/music.png" alt="" class="mb-4">
-                             <div class="projects-h2">Music Mania with Munia</div>
-                             <div class="projects-p">
-                                 Lorem Ipsum is simply dummy text of the 
-                                 printing and typesetting industry.
-                             </div>
+                            <img src="assets/music.png" alt="" class="mb-4">
+                            <div class="projects-h2">Music Mania with Munia</div>
+                            <div class="projects-p">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </div>
                         </div>
-                     </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,14 +111,62 @@
 
 
     <!--This Week's Popular Article (Ekim)-->
-    <div id="section-03">
+    <div id="section-03" class="container mb-5">
+        <h1 class="text-center mb-5">THIS WEEK'S POPULAR <span class="text-danger">ARTICLES</span></h1>
 
+        <div class="container d-md-flex d-block mb-5 justify-content-center ">
+            <div class="card p-2 m-2" style="">
+                <img class="card-img-top" src="assets/card_1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Top 10 destination for software developer</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos hic velit atque cumque! Minima, consequatur in dicta nihil eius sed illo similique accusantium laudantium ullam eos? Asperiores minus animi fuga. Incidunt, quis
+                        eos! Cum quaerat neque facilis magni amet natus debitis, laboriosam obcaecati similique ipsa nostrum adipisci nihil doloremque velit.</p>
+                    <div class="container d-lg-flex d-block justify-content-between ps-4 pe-4 text-center">
+                        <a href="" class="badge text-danger">LifeStyle</a>
+                        <a href="" class="badge text-danger">Web Design</a>
+                        <a href="" class="badge text-danger">Web Development</a>
+                        <a href="" class="badge text-danger">Travel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-2 m-2" style="">
+                <img class="card-img-top" src="assets/card_2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-center">10 work from home tips for work efficiency:</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos hic velit atque cumque! Minima, consequatur in dicta nihil eius sed illo similique accusantium laudantium ullam eos? Asperiores minus animi fuga. Incidunt, quis
+                        eos! Cum quaerat neque facilis magni amet natus debitis, laboriosam obcaecati similique ipsa nostrum adipisci nihil doloremque velit.</p>
+                    <div class="container d-lg-flex d-block justify-content-between ps-4 pe-4 text-center">
+                        <a href="" class="badge text-danger">LifeStyle</a>
+                        <a href="" class="badge text-danger">Front-end</a>
+                        <a href="" class="badge text-danger">Web Development</a>
+                        <a href="" class="badge text-danger">CSS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <!--Footer - Stay Connected (Ekim)-->
     <footer id="footer">
+        <div class="container inquiry-bg mb-5">
+            <div class="container h-100 w-100 footer-bg-details-dot-1 footer-bg-details-dot-2 ">
 
+                <div class="h-100">
+                    <div class="d-flex ms-5 me-5 h-100 align-items-center justify-content-between">
+                        <div class="inquiry-text">ANY INQUIRY?</div>
+                        <div class="btn p-3">Lets Chat !</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center stay-text mt-1">STAY CONNECTED</div>
+        <div class="container text-center mail-text mt-1">contact@mail.com</div>
+        <div class="container logos d-flex justify-content-around align-items-center mt-4 mb-5" id="logos">
+            <i class="fas fa-basketball-ball fa-2x"></i>
+            <i class="fab fa-behance fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+        </div>
     </footer>
 
 
